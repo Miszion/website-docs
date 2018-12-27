@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Mission's Site</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+
+            $("#Nameheader").hide();
+            $(".links").hide();
+
+            $("#Nameheader").fadeIn(1000);
+            $(".links").fadeIn(1000);
+        });
+        
+        
+        $(document).unload(function () {
+            $('#Nameheader').fadeOut(1000);
+            $(".links").fadeOut(1000);
+        });
+        
+    </script>
+
+</head>
+<body>
+
+
+
+    <div id="Nameheader"> Mission Marcus </div>
+
+    <div class="links">
+        <div id="about"> <a href="aboutme.html"> About Me </a> </div>
+        <div id="github"><a href="http://github.com/miszion"> Github </a> </div>
+        <div id="linked"><a href="https://www.linkedin.com/in/mission-marcus/"> LinkedIn</a></div>
+    </div>
+
+
+</body>
+</html>

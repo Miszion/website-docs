@@ -1,0 +1,67 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+#Nameheader {
+    position: relative;
+    font-size: 50px;
+    font-style: normal;
+    font-family: 'Major Mono Display', monospace;
+    color: darkgrey;
+}
+
+
+a:link
+{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    font-style: normal;
+     text-decoration: none;
+}
+
+a:hover
+{
+    color: ghostwhite;
+    font-style: normal;
+     text-decoration: none;
+}
+
+a:active
+{
+    color: dimgrey;
+    font-style: normal;
+     text-decoration: none;
+}
+
+.links
+{
+    position: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+#about {
+    font-family: 'Thasadith', sans-serif;
+    margin-left: 500px;
+    position: absolute;
+    padding-right: 0;
+    color: black;
+}
+#github {
+    font-family: 'Thasadith', sans-serif;
+    position: absolute;
+    margin-left: 750px;
+    color: black;
+}
+#linked {
+    font-family: 'Thasadith', sans-serif;
+    position: absolute;
+    margin-left: 1000px;
+    color: black;
+}
+
