@@ -5,6 +5,30 @@ var globalID;
 
 
 
+function changePic(name)
+{
+    if (name == "circle")
+        {
+            document.getElementById("circle2").style.backgroundColor = "grey";
+            document.getElementById("circle3").style.backgroundColor = "lightgrey";
+            document.getElementById("image").src = "picture1.jpg"
+        }
+    else if (name == "circle2")
+        {
+            document.getElementById("circle").style.backgroundColor = "darkgrey";
+            document.getElementById("circle3").style.backgroundColor = "lightgrey";
+            document.getElementById("image").src = "picture2.jpg"
+        }
+    else if (name == "circle3")
+        {
+             document.getElementById("circle").style.backgroundColor = "darkgrey";
+            document.getElementById("circle2").style.backgroundColor = "grey";
+            document.getElementById("image").src = "picture3.jpg"
+        }
+    
+    document.getElementById(name).style.backgroundColor = "black";
+}
+
 
 
 function changePosition() {
