@@ -1,7 +1,7 @@
 import React from 'react';
 import './stylesheet.css';
 import ImageBlock from './ImageBlock'
-import resumePDF from './missionresume1.pdf';
+import resumePDF from './assets/missionresume1.pdf';
 
 class App extends React.Component{
 
